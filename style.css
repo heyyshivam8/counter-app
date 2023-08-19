@@ -1,0 +1,27 @@
+.wrapper{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.mainfunc{
+    display: flex;
+    padding: 10px 30px;
+    gap: 20px;
+    background-color: white;
+}
+
+.plus{
+    background-color: white;
+    border: none;
+    border-right: 1px solid black;
+}
+
+.minus{
+    background-color: white;
+    border: none;
+    border-left: 1px solid black;
+}
